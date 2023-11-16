@@ -1,5 +1,5 @@
-import React ,{ useRef , useState} from 'react';
-import {View ,Text, Image, FlatList ,TouchableOpacity , ScrollView, Animated} from 'react-native';
+import React  from 'react';
+import {View ,Text, Image ,TouchableOpacity } from 'react-native';
 import { styles } from './styles';
 
 import limitesicon from '../assets/meuslimites-removebg-preview.png';
@@ -8,9 +8,9 @@ import trazericon from '../assets/trazericon-removebg-preview.png';
 import detraicon from '../assets/detrasp-removebg-preview.png';
 import recargaicon from '../assets/Sem_título-removebg-preview.png';
 import cobraricon from '../assets/Doc-removebg-preview.png';
-import usericon from '../../assets/usericon.png';
-import sinoicon from '../../assets/bellicon-PhotoRoom.png-PhotoRoom.png';
-import loopaicon from '../../assets/loopaicon-PhotoRoom.png-PhotoRoom.png';
+// import usericon from '../../assets/usericon.png';
+// import sinoicon from '../../assets/bellicon-PhotoRoom.png-PhotoRoom.png';
+// import loopaicon from '../../assets/loopaicon-PhotoRoom.png-PhotoRoom.png';
 
 export default function BottonApp() {
 
