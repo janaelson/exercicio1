@@ -57,7 +57,7 @@ export default function Transacoes() {
         <View>
 
             <Animated.View style={[styles.header, { transform: [{ translateY }] }]}>
-            <TouchableOpacity style={styles.headerbutton}>
+            <TouchableOpacity style={styles.headerbutton} activeOpacity={1}>
                 <View style={styles.headerview } >
                     <View style={styles.headerview2 } >
                         <Image source={usericon} style={styles.headerimg} />
@@ -123,7 +123,7 @@ export default function Transacoes() {
                     />
             </View> */}
             <View style={styles.viewbuttommid}>
-                <TouchableOpacity>
+                <TouchableOpacity activeOpacity={0.8}>
                     <Image  source={imgbotton} style={styles.imgbotton  } />
                 </TouchableOpacity>
             </View>    

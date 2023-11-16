@@ -1,20 +1,24 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    bgImage:{
-        position: "relative",
-        flex: 1,
-     },
+    containerA: {
+        backgroundColor: '#ABA9A855',
+        padding: 12,
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        zIndex: 2,
+    },
     container: {
         flex:1,
-        backgroundColor: '#ec7000',
-        paddingTop: 0,
-        
-        
+        paddingTop: 0,  
     },
     mainContent: {
         flex: 1,
-      },
+    },
     buttontop: {
         backgroundColor: '#FFFFFF',
         height: 85,
@@ -24,20 +28,23 @@ export const styles = StyleSheet.create({
 
     },
     texticon:{
-        backgroundColor: '#D2D7DD',
-        marginLeft: 10,
-        marginTop: 10,
-        width: 40,
-        height: 40,
-        color: '#ec7000',
-        fontSize: 30,
-        fontWeight: 'bold',
+        backgroundColor: '##edece8',
+        marginLeft: 16,
+        marginTop: 12,
+        paddingTop: 4,
+        width: 36,
+        height: 36,
+        color: '#f68a0e',
+        fontSize: 18,
         textAlign: 'center',
         justifyContent: 'center',
+        fontWeight: '500',
         borderRadius: 100,
+        borderWidth: 1.5,
+        borderColor: '#dbdad8',
     },
     textonome:{
-        color: '#ec7000',
+        color: '#f68a0e',
         fontSize: 15,
         fontWeight: 'bold',
         textAlign: 'justify',
@@ -54,24 +61,28 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         
     },
+    imgceta:{
+        width: 60,
+        height: 55,
+        marginTop: 5,
+        marginLeft: 130
+    },
     textentrar: {
         color: '#FFFFFF',
-        fontSize: 20,
-        fontWeight: 'bold',
+        fontSize: 19,
+        fontWeight: '400',
         textAlign : 'center',
         marginTop: 20,
         
     },
     viewbox: {
-        // backgroundColor: '#FFFFFF',
         flexDirection: 'row',
-        // justifyContent:'center',
         width: 235,
         height: 35,
         marginTop: 20,
         marginLeft: 57,
-        borderBottomWidth: 2,  // Adiciona uma borda de largura 2
-        borderBottomColor: '#FFFFFF',  // Adiciona uma borda de cor 
+        borderBottomWidth: 2,
+        borderBottomColor: '#FFFFFF',
     },
     acessarbutton:{
         backgroundColor: '#FFFFFF',
@@ -84,7 +95,7 @@ export const styles = StyleSheet.create({
         borderRadius: 5,
     },
     acessartext:{
-        color: '#ec7000',
+        color: '#f68a0e',
         fontSize: 17,
         fontWeight: '400'
 
@@ -92,13 +103,15 @@ export const styles = StyleSheet.create({
     bottonmenu:{
         flexDirection: 'row',
         marginBottom: 20,
-        marginLeft: 45,
+        marginLeft: 20,
+        marginRight: 20,
         justifyContent: 'space-between',
+
     },
     buttonmenu:{
         width:85,
         justifyContent: 'center',
-        alignItems: 'flex-start'
+        alignItems: 'center',
     },
     imagbox:{
         height: 20,
@@ -117,12 +130,13 @@ export const styles = StyleSheet.create({
         width:30,
     },
     pixitoken:{
-        height: 25,
+        height: 30,
         width:42,
     },
     pixtext:{
         color: '#FFFFFF',
         fontSize: 15,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        marginTop: 16,
     }
 });

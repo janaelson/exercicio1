@@ -36,7 +36,7 @@ export function BottonTagRouts() {
 
             component={Transacoes}
             options={{
-                tabBarIcon: ({ color, size }) => (
+                tabBarIcon: ({ color }) => (
                     <Image source={casaInicio} style={{ tintColor:color ,width: 50, height: 50 }} />
                 ),
                 }}
@@ -45,7 +45,7 @@ export function BottonTagRouts() {
             
             component={Transacoes}
             options={{
-            tabBarIcon: ({ color, size }) => (
+            tabBarIcon: ({ color }) => (
                 <Image source={extratoInicio} style={{ tintColor:color , width: 50, height: 50 }} />
                 ),
                 }}
@@ -54,7 +54,7 @@ export function BottonTagRouts() {
 
             component={Transacoes}  
             options={{
-            tabBarIcon: ({ color, size }) => (
+            tabBarIcon: ({ color }) => (
                 <Image source={tranzacoesInicio} style={{ tintColor:color , width: 50, height: 50 }} />
                 ),
                 }}
@@ -63,7 +63,7 @@ export function BottonTagRouts() {
             
             component={Transacoes} 
             options={{
-            tabBarIcon: ({ color, size }) => (
+            tabBarIcon: ({ color }) => (
                 <Image source={produtoinicio} style={{ tintColor:color , width: 50, height: 50 }} />
                 ),
                 }}
@@ -72,7 +72,7 @@ export function BottonTagRouts() {
             
             component={Transacoes}  
             options={{
-            tabBarIcon: ({ color, size }) => (
+            tabBarIcon: ({ color }) => (
                 <Image source={ajudaInicio} style={{ tintColor:color , width: 50, height: 50 }} />
                 ),
                 }}
